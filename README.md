@@ -19,4 +19,5 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 
 
 ### Program made with vue that calculates the student's GPA.
+Project open source link: https://thirsty-brattain-740cf5.netlify.app/
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/67821216/91900027-b5f9e180-eca6-11ea-8b88-ff6e3358fdb5.gif)
