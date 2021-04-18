@@ -54,7 +54,7 @@ export default {
     return {};
   },
   methods: {
-    ComputGrad: function(students) {
+    ComputGrad: function (students) {
       var total = 0;
       total =
         students.firstgrade * 0.3 +
@@ -62,7 +62,7 @@ export default {
         students.finalgrade * 0.4;
       return total.toFixed(2);
     },
-    addlesson: function() {
+    addlesson: function () {
       this.students.push({
         code: "",
         firstgrade: "",
@@ -70,12 +70,12 @@ export default {
         finalgrade: "",
       });
     },
-    deletlesson: function(index) {
+    deletlesson: function (index) {
       this.students.splice(index, 1);
     },
   },
   computed: {
-    computedavarage: function() {
+    computedavarage: function () {
       var avar = 0;
       for (var i = 0; i < this.students.length; i++) {
         avar += this.ComputGrad(this.students[i]);
